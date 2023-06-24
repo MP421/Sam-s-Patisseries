@@ -1,0 +1,76 @@
+@use './../utils/' as u;
+
+.sp-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 66%;
+
+    &__aside {
+        color: u.$white;
+        background-color: u.$black;
+        max-width: 35%;
+        text-align: center;
+        padding: 1rem;
+
+        &__title {
+            font-size: 2.5rem;
+            font-family: u.$font-stack-secondary;
+        }
+
+        &__sub-title {
+            margin: 5rem 0 15rem;
+            padding: 0 1.8rem;
+            font-size: 1.2rem;
+            font-family: u.$font-stack-tertiary;
+            letter-spacing: .05rem;
+        }
+    }
+
+    &__main {
+        max-width: 65%;
+        text-align: center;
+
+        &__nav-links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__site-nav {
+                margin: 1rem 0 1rem 7.5rem;
+            }
+
+            &__site-nav a {
+                margin-left: 1rem;
+                text-transform: uppercase;
+                font-size: 1.1rem;
+            }
+
+            &__social-media {
+                justify-content: flex-end;
+            }
+
+            &__social-media a {
+                margin-left: .5rem;
+            }
+        }
+
+        &__hero {
+            max-width: 80%;
+            margin: 3rem auto;
+            font-size: 1.3rem;
+        }
+
+        &__hero p {
+            margin-bottom: 2.5rem;
+        }
+
+        &__hero a {
+            background-color: u.$black;
+            color: u.$gold;
+            padding: .75rem 5rem;
+            border-radius: 25px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+        }
+    }
+}

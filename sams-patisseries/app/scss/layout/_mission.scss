@@ -1,0 +1,29 @@
+@use './../utils/' as u;
+
+.sp-mission-statement {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 66%;
+    margin: 0 auto;
+    padding: 3rem 3.5rem;
+    color: u.$blue;
+    background-color: u.$white;
+
+    &__part-1 {
+        font-size: 1.7rem;
+    }
+
+    &__part-2,
+    &__part-3,
+    &__part-4,
+    &__part-5 {
+        font-size: 1.1rem;
+    }
+}
+
+.fa-croissant {
+    color: u.$blue;
+    background-color: u.$blue;
+    font-size: 10rem;
+}

@@ -1,0 +1,32 @@
+@use './../utils/' as u;
+
+.sp-patisserie-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 66%;
+    margin: 0 auto;
+    padding: 3rem 3.5rem;
+    color: u.$gold;
+    background-color: u.$blue;
+    letter-spacing: .1rem;
+}
+
+.sp-patisserie-menu h2 {
+    font-size: 2.5rem;
+}
+
+.sp-patisserie-menu h3 {
+    font-size: 2rem;
+    margin: .7rem 0 .2rem 0;
+}
+
+.sp-patisserie-menu h4 {
+    font-size: 1.5rem;
+    margin: .7rem 0 .8rem 0;
+}
+
+.sp-patisserie-menu p {
+    font-size: 1.1rem;
+    margin: 0 0 .5rem 0;
+}

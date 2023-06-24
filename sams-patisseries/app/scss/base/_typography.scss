@@ -1,0 +1,37 @@
+@use '../utils' as u;
+
+body {
+  font-family: u.$font-stack-primary;
+  background-color: u.$gold;
+}
+
+body,
+a {
+  color: u.$black;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: clamp(u.em(28), u.em(16) + 2vw, u.em(40));
+}
+
+h2 {
+  font-size: clamp(u.em(22), u.em(14) + 2vw, u.em(36));
+}
+
+p {
+  font-size: u.em(16);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
