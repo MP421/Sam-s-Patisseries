@@ -5,20 +5,20 @@
     flex-direction: column;
     row-gap: 2rem;
     width: 66%;
-    margin: 0 auto;
+    margin: -.22rem auto 0;
     padding: 3rem 3.5rem;
     color: u.$blue;
     background-color: u.$white;
 
     &__part-1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     &__part-2,
     &__part-3,
     &__part-4,
     &__part-5 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -26,4 +26,10 @@
     color: u.$blue;
     background-color: u.$blue;
     font-size: 10rem;
+}
+
+@media (max-width: 900px) {
+    .sp-mission-statement {
+        max-width: 100%;
+    }
 }

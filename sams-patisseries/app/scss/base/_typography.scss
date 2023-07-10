@@ -1,5 +1,9 @@
 @use '../utils' as u;
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: u.$font-stack-primary;
   background-color: u.$gold;

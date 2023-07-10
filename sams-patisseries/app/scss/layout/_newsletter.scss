@@ -48,4 +48,15 @@
         cursor: pointer;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
     }
+
+    &__input button:hover {
+        background-color: u.$black;
+        transition: .1s ease;
+    }
+}
+
+@media (max-width: 900px) {
+    .sp-newsletter {
+        max-width: 100%;
+    }
 }
