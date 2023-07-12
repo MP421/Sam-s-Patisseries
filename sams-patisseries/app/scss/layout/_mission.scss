@@ -22,14 +22,8 @@
     }
 }
 
-.fa-croissant {
-    color: u.$blue;
-    background-color: u.$blue;
-    font-size: 10rem;
-}
-
 @media (max-width: 900px) {
     .sp-mission-statement {
-        max-width: 100%;
+        width: 100%;
     }
 }
