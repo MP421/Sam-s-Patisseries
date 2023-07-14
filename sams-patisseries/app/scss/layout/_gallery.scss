@@ -11,6 +11,15 @@
     width: 33%
 }
 
+.sat {
+    transform: translateX(-10000px);
+    transition: transform .5s ease;
+}
+
+.sat.show {
+    transform: translateX(0);
+}
+
 @media (max-width: 900px) {
     .sp-gallery {
         width: 100%;

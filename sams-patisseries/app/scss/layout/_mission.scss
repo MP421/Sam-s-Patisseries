@@ -20,6 +20,15 @@
     &__part-5 {
         font-size: 1.2rem;
     }
+
+    .sat {
+        transform: translateX(10000px);
+        transition: transform .2s ease;
+    }
+
+    .sat.show {
+        transform: translateX(0);
+    }
 }
 
 @media (max-width: 900px) {

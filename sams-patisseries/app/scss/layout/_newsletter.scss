@@ -32,10 +32,6 @@
         font-family: u.$font-stack-primary;
     }
 
-    &__input input:focus {
-        outline: none;
-    }
-
     &__input button {
         font-family: u.$font-stack-primary;
         background-color: u.$blue;
